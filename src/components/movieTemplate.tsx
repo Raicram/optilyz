@@ -75,7 +75,6 @@ const MovieTemplate: React.FC<IMovieResponse> = ({search}) => {
     const handleMovieError = () => {
         setTimeout(() => {
             setMovieErr(movieErr => movieErr+1)
-            console.log(movieErr)
         }, 1000);
     }
 

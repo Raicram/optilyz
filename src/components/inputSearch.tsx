@@ -2,7 +2,6 @@ import React from 'react'
 import { Formik } from 'formik'
 import { getMovie } from 'src/api/axios'
 import styled from 'styled-components'
-import { API_URL_FULL } from 'src/config'
 
 
 const Wrapper = styled.div`
@@ -82,17 +81,14 @@ const InputSearch: React.FC<IResponse> = ({setResponse}) => {
             validate={values => {
                 const errors: IErrors = {} as IErrors;
                 if (!values.s) {
-                errors.s = 'Required';
+                  errors.s = 'Required';
                 }
                 return errors;
             }}
             onSubmit={(values, { setSubmitting }) => {
                 setTimeout(async () => {
-                    console.log(API_URL_FULL, ' hahah')
-
                     const response = await getMovie(values)
                     setResponse(response)
-                    console.log(response)
                   setSubmitting(false);
                 }, 400);
               }}
