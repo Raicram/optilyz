@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/optilyz/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/optilyz/static/js/main.d49ddd7e.chunk.js",
+    "main.js.map": "/optilyz/static/js/main.d49ddd7e.chunk.js.map",
+    "runtime-main.js": "/optilyz/static/js/runtime-main.55ad8691.js",
+    "runtime-main.js.map": "/optilyz/static/js/runtime-main.55ad8691.js.map",
+    "static/js/2.2ef59e6a.chunk.js": "/optilyz/static/js/2.2ef59e6a.chunk.js",
+    "static/js/2.2ef59e6a.chunk.js.map": "/optilyz/static/js/2.2ef59e6a.chunk.js.map",
+    "static/js/3.7fa86946.chunk.js": "/optilyz/static/js/3.7fa86946.chunk.js",
+    "static/js/3.7fa86946.chunk.js.map": "/optilyz/static/js/3.7fa86946.chunk.js.map",
+    "index.html": "/optilyz/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/optilyz/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.2ef59e6a.chunk.js.LICENSE.txt": "/optilyz/static/js/2.2ef59e6a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55ad8691.js",
+    "static/js/2.2ef59e6a.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.d49ddd7e.chunk.js"
+  ]
+}
