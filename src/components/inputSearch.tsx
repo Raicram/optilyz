@@ -1,6 +1,6 @@
 import React from 'react'
 import { Formik } from 'formik'
-import { getMovie } from 'src/api/axios'
+import { getMovies } from 'src/api/axios'
 import styled from 'styled-components'
 
 
@@ -87,7 +87,7 @@ const InputSearch: React.FC<IResponse> = ({setResponse}) => {
             }}
             onSubmit={(values, { setSubmitting }) => {
                 setTimeout(async () => {
-                    const response = await getMovie(values)
+                    const response = await getMovies(values)
                     setResponse(response)
                   setSubmitting(false);
                 }, 400);
